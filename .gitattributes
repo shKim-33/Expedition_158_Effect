@@ -1,0 +1,6 @@
+* text=auto
+*.hlsl text
+*.hlsli text
+*.json text
+*.md text
+*.png binary

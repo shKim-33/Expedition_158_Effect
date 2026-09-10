@@ -1,0 +1,2543 @@
+{
+    "emitters": [
+        {
+            "enabled": true,
+            "id": 104,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.0,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 0.3499999940395355,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 0,
+                        "material": {
+                            "additive": {
+                                "amountSource": "Luminance",
+                                "blackNeutral": true,
+                                "colorSource": "TintedRGB",
+                                "constantColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coveragePolicy": "CoverageAndAmount",
+                                "emissiveColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "intensityScale": 1.0
+                            },
+                            "airSheathMapComposition": "Replace",
+                            "airSheathMapInfluence": 0.0,
+                            "airSheathMapInterpretation": "VectorField",
+                            "airSheathMapVectorSpace": "Screen",
+                            "airSheathMapXSource": "Red",
+                            "airSheathMapYSource": "Green",
+                            "alphaCutoff": 0.25,
+                            "alphaErosion": 0.0020000000949949026,
+                            "alphaMultiplier": 1.0,
+                            "blendMode": "AlphaBlend",
+                            "coreEmissive": {
+                                "coreColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coreIntensity": 0.5,
+                                "corePower": 4.0,
+                                "enabled": true,
+                                "outerIntensity": 4.0,
+                                "outerPower": 4.0
+                            },
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "glassAlpha": 0.18000000715255737,
+                            "glassAlphaPower": 1.0,
+                            "glassLightColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassLightDirection": [
+                                -0.3499999940395355,
+                                0.6499999761581421,
+                                -0.6499999761581421
+                            ],
+                            "glassLightIntensity": 1.2000000476837158,
+                            "glassMainInfluence": 0.25,
+                            "glassMaskStrength": 1.0,
+                            "glassNoiseBreakup": 0.3499999940395355,
+                            "glassNormalStrength": 1.0,
+                            "glassRimColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassRimIntensity": 1.5,
+                            "glassRimPower": 3.0,
+                            "glassSpecularPower": 48.0,
+                            "glassSpecularSoftness": 1.0,
+                            "intensity": 2.0,
+                            "mainTextureGuid": "dd46df13-78e4-4d15-babf-e60231bf37a8",
+                            "mainTexturePath": "Effects/Textures/Trail/Paint_Stroke_1.dds",
+                            "mainUVOffset": [
+                                0.03999999910593033,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                0.5,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Wrap",
+                            "maskInvert": true,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "f2518375-efab-41f1-9769-06b0ec4f6cc6",
+                            "maskTexturePath": "Effects/Textures/Trail/T_Ink1.dds",
+                            "maskUVOffset": [
+                                -0.7300000190734863,
+                                -0.10000000149011612
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                1.590000033378601,
+                                0.30000001192092896
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Wrap",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 1.0,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Red",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "ScopeA_Volutes02_BodyInk",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                0.800000011920929,
+                                0.699999988079071,
+                                0.30000001192092896,
+                                0.699999988079071
+                            ],
+                            "twoSided": true
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Trail",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": false,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 105,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 3,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": true,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 7.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 106,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 0.3499999940395355
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 107,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "alpha": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "color": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 108,
+                    "type": "InitialColor"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.699999988079071,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 109,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            1.100000023841858,
+                                            1.2000000476837158
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 1.0,
+                                        "value": [
+                                            0.5,
+                                            0.5
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 110,
+                    "type": "SizeByLife"
+                },
+                {
+                    "data": {
+                        "coreColorRgbModulators": [],
+                        "modulators": [
+                            {
+                                "distribution": {
+                                    "mode": "ConstantCurve",
+                                    "payload": {
+                                        "keys": [
+                                            {
+                                                "arriveTangent": 0.0,
+                                                "interpolationMode": "Linear",
+                                                "leaveTangent": 0.0,
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            },
+                                            {
+                                                "arriveTangent": 0.0,
+                                                "interpolationMode": "Linear",
+                                                "leaveTangent": 0.0,
+                                                "time": 1.0,
+                                                "value": 6.0
+                                            }
+                                        ]
+                                    }
+                                },
+                                "enabled": true,
+                                "operation": "Multiply",
+                                "targetField": "OuterIntensity",
+                                "timeSource": "EmitterTime"
+                            }
+                        ],
+                        "vec2Modulators": []
+                    },
+                    "enabled": false,
+                    "id": 111,
+                    "type": "MaterialScalarModulation"
+                }
+            ],
+            "name": "Volutes02_BodyInk",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Trail",
+            "typeData": {
+                "data": {
+                    "autoLifeFade": true,
+                    "curveQuality": "HighQuality",
+                    "curveSubdivision": 12,
+                    "historyCount": 64,
+                    "maxTrailLength": 3.0,
+                    "sampleSpacing": 0.019999999552965164,
+                    "segmentLifetime": 0.25,
+                    "sideFade": 0.1599999964237213,
+                    "smoothTangent": true,
+                    "tailFadeLength": 0.5,
+                    "uvTiling": 1.0,
+                    "width": 1.100000023841858
+                },
+                "kind": "Trail"
+            }
+        },
+        {
+            "enabled": true,
+            "id": 112,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.0,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 0.25,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 0,
+                        "material": {
+                            "additive": {
+                                "amountSource": "Luminance",
+                                "blackNeutral": true,
+                                "colorSource": "TintedRGB",
+                                "constantColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coveragePolicy": "CoverageAndAmount",
+                                "emissiveColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "intensityScale": 1.0
+                            },
+                            "airSheathMapComposition": "Replace",
+                            "airSheathMapInfluence": 0.0,
+                            "airSheathMapInterpretation": "VectorField",
+                            "airSheathMapVectorSpace": "Screen",
+                            "airSheathMapXSource": "Red",
+                            "airSheathMapYSource": "Green",
+                            "alphaCutoff": 0.25,
+                            "alphaErosion": 0.009999999776482582,
+                            "alphaMultiplier": 1.0,
+                            "blendMode": "AlphaBlend",
+                            "coreEmissive": {
+                                "coreColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coreIntensity": 1.5,
+                                "corePower": 4.0,
+                                "enabled": true,
+                                "outerIntensity": 2.0,
+                                "outerPower": 4.0
+                            },
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "glassAlpha": 0.18000000715255737,
+                            "glassAlphaPower": 1.0,
+                            "glassLightColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassLightDirection": [
+                                -0.3499999940395355,
+                                0.6499999761581421,
+                                -0.6499999761581421
+                            ],
+                            "glassLightIntensity": 1.2000000476837158,
+                            "glassMainInfluence": 0.25,
+                            "glassMaskStrength": 1.0,
+                            "glassNoiseBreakup": 0.3499999940395355,
+                            "glassNormalStrength": 1.0,
+                            "glassRimColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassRimIntensity": 1.5,
+                            "glassRimPower": 3.0,
+                            "glassSpecularPower": 48.0,
+                            "glassSpecularSoftness": 1.0,
+                            "intensity": 8.0,
+                            "mainTextureGuid": "dd46df13-78e4-4d15-babf-e60231bf37a8",
+                            "mainTexturePath": "Effects/Textures/Trail/Paint_Stroke_1.dds",
+                            "mainUVOffset": [
+                                0.03999999910593033,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                0.5,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Wrap",
+                            "maskInvert": true,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "f2518375-efab-41f1-9769-06b0ec4f6cc6",
+                            "maskTexturePath": "Effects/Textures/Trail/T_Ink1.dds",
+                            "maskUVOffset": [
+                                -0.20999999344348907,
+                                -0.10000000149011612
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                0.800000011920929
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Wrap",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 1.0,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Stretch",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Red",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "ScopeA_Volutes02_BodyInk",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                0.4000000059604645,
+                                0.4000000059604645,
+                                0.4000000059604645,
+                                0.5
+                            ],
+                            "twoSided": true
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Trail",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": false,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 113,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 3,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": true,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 7.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 114,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 0.25
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 115,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "alpha": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "color": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 116,
+                    "type": "InitialColor"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.699999988079071,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 117,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.8999999761581421,
+                                            0.8999999761581421
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 1.0,
+                                        "value": [
+                                            0.4000000059604645,
+                                            0.4000000059604645
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 118,
+                    "type": "SizeByLife"
+                },
+                {
+                    "data": {
+                        "coreColorRgbModulators": [],
+                        "modulators": [
+                            {
+                                "distribution": {
+                                    "mode": "ConstantCurve",
+                                    "payload": {
+                                        "keys": [
+                                            {
+                                                "arriveTangent": 0.0,
+                                                "interpolationMode": "Linear",
+                                                "leaveTangent": 0.0,
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            },
+                                            {
+                                                "arriveTangent": 0.0,
+                                                "interpolationMode": "Linear",
+                                                "leaveTangent": 0.0,
+                                                "time": 1.0,
+                                                "value": 6.0
+                                            }
+                                        ]
+                                    }
+                                },
+                                "enabled": true,
+                                "operation": "Multiply",
+                                "targetField": "OuterIntensity",
+                                "timeSource": "EmitterTime"
+                            }
+                        ],
+                        "vec2Modulators": []
+                    },
+                    "enabled": false,
+                    "id": 119,
+                    "type": "MaterialScalarModulation"
+                }
+            ],
+            "name": "Volutes02_AuraCore",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Trail",
+            "typeData": {
+                "data": {
+                    "autoLifeFade": true,
+                    "curveQuality": "HighQuality",
+                    "curveSubdivision": 12,
+                    "historyCount": 64,
+                    "maxTrailLength": 5.0,
+                    "sampleSpacing": 0.019999999552965164,
+                    "segmentLifetime": 0.25,
+                    "sideFade": 0.1599999964237213,
+                    "smoothTangent": true,
+                    "tailFadeLength": 2.5,
+                    "uvTiling": 1.0,
+                    "width": 1.0
+                },
+                "kind": "Trail"
+            }
+        },
+        {
+            "enabled": true,
+            "id": 127,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.0,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 0.41999998688697815,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 0,
+                        "material": {
+                            "additive": {
+                                "amountSource": "Luminance",
+                                "blackNeutral": true,
+                                "colorSource": "TintedRGB",
+                                "constantColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coveragePolicy": "CoverageAndAmount",
+                                "emissiveColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "intensityScale": 1.0
+                            },
+                            "airSheathMapComposition": "Replace",
+                            "airSheathMapInfluence": 0.5,
+                            "airSheathMapInterpretation": "VectorField",
+                            "airSheathMapVectorSpace": "Screen",
+                            "airSheathMapXSource": "Red",
+                            "airSheathMapYSource": "Green",
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.0,
+                            "alphaMultiplier": 1.0,
+                            "blendMode": "AlphaBlend",
+                            "coreEmissive": {
+                                "coreColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coreIntensity": 0.0,
+                                "corePower": 4.0,
+                                "enabled": false,
+                                "outerIntensity": 1.5,
+                                "outerPower": 1.0
+                            },
+                            "distortionShapeMode": "AirSheath",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "025ba6b7-927e-46e6-b58c-886e179b02f5",
+                            "flowTexturePath": "Effects/Textures/Distortion/disort_test.dds",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "flowUVRotation": "Rotate90CW",
+                            "flowUVScale": [
+                                0.5,
+                                0.5
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Wrap",
+                            "glassAlpha": 0.18000000715255737,
+                            "glassAlphaPower": 1.0,
+                            "glassLightColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassLightDirection": [
+                                -0.3499999940395355,
+                                0.6499999761581421,
+                                -0.6499999761581421
+                            ],
+                            "glassLightIntensity": 1.2000000476837158,
+                            "glassMainInfluence": 0.25,
+                            "glassMaskStrength": 1.0,
+                            "glassNoiseBreakup": 0.3499999940395355,
+                            "glassNormalStrength": 1.0,
+                            "glassRimColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassRimIntensity": 1.5,
+                            "glassRimPower": 3.0,
+                            "glassSpecularPower": 48.0,
+                            "glassSpecularSoftness": 1.0,
+                            "intensity": 1.0,
+                            "mainTextureGuid": "6db07aea-abf8-4511-89d1-1b79272fb165",
+                            "mainTexturePath": "Effects/Textures/Shared/T_White.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "SpriteDistortion",
+                            "noiseInvert": false,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.0,
+                            "noiseTextureGuid": "",
+                            "noiseTexturePath": "",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Stretch",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 1.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "ScopeA_Volutes02_BodyInk",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "twoSided": true
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Trail",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": false,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 128,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 16,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": true,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 129,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 0.5
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 130,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "alpha": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "color": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 131,
+                    "type": "InitialColor"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 132,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 1.0,
+                                        "value": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 133,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Distortion",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Trail",
+            "typeData": {
+                "data": {
+                    "autoLifeFade": false,
+                    "curveQuality": "HighQuality",
+                    "curveSubdivision": 12,
+                    "historyCount": 64,
+                    "maxTrailLength": 3.5,
+                    "sampleSpacing": 0.019999999552965164,
+                    "segmentLifetime": 0.25,
+                    "sideFade": 0.1599999964237213,
+                    "smoothTangent": true,
+                    "tailFadeLength": 1.0,
+                    "uvTiling": 1.0,
+                    "width": 1.2000000476837158
+                },
+                "kind": "Trail"
+            }
+        },
+        {
+            "enabled": true,
+            "id": 152,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.0,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 0.41999998688697815,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 0,
+                        "material": {
+                            "additive": {
+                                "amountSource": "Luminance",
+                                "blackNeutral": true,
+                                "colorSource": "TintedRGB",
+                                "constantColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coveragePolicy": "CoverageAndAmount",
+                                "emissiveColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "intensityScale": 1.0
+                            },
+                            "airSheathMapComposition": "Replace",
+                            "airSheathMapInfluence": 0.699999988079071,
+                            "airSheathMapInterpretation": "VectorField",
+                            "airSheathMapVectorSpace": "Screen",
+                            "airSheathMapXSource": "Red",
+                            "airSheathMapYSource": "Green",
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.0,
+                            "alphaMultiplier": 1.0,
+                            "blendMode": "AlphaBlend",
+                            "coreEmissive": {
+                                "coreColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coreIntensity": 0.0,
+                                "corePower": 4.0,
+                                "enabled": false,
+                                "outerIntensity": 1.5,
+                                "outerPower": 1.0
+                            },
+                            "distortionShapeMode": "AirSheath",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "025ba6b7-927e-46e6-b58c-886e179b02f5",
+                            "flowTexturePath": "Effects/Textures/Distortion/disort_test.dds",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "flowUVRotation": "Rotate90CW",
+                            "flowUVScale": [
+                                0.5,
+                                0.5
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Wrap",
+                            "glassAlpha": 0.18000000715255737,
+                            "glassAlphaPower": 1.0,
+                            "glassLightColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassLightDirection": [
+                                -0.3499999940395355,
+                                0.6499999761581421,
+                                -0.6499999761581421
+                            ],
+                            "glassLightIntensity": 1.2000000476837158,
+                            "glassMainInfluence": 0.25,
+                            "glassMaskStrength": 1.0,
+                            "glassNoiseBreakup": 0.3499999940395355,
+                            "glassNormalStrength": 1.0,
+                            "glassRimColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassRimIntensity": 1.5,
+                            "glassRimPower": 3.0,
+                            "glassSpecularPower": 48.0,
+                            "glassSpecularSoftness": 1.0,
+                            "intensity": 1.0,
+                            "mainTextureGuid": "6db07aea-abf8-4511-89d1-1b79272fb165",
+                            "mainTexturePath": "Effects/Textures/Shared/T_White.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "SpriteDistortion",
+                            "noiseInvert": false,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.0,
+                            "noiseTextureGuid": "",
+                            "noiseTexturePath": "",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Stretch",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.699999988079071,
+                            "refractionPresence": 0.6000000238418579,
+                            "sourcePresetName": "ScopeA_Volutes02_BodyInk",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "twoSided": true
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Trail",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": false,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 153,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 16,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": true,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 154,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 0.41999998688697815
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 155,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": 0.10000000149011612
+                                    }
+                                ]
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 156,
+                    "type": "ColorOverLife"
+                }
+            ],
+            "name": "Distortion",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Trail",
+            "typeData": {
+                "data": {
+                    "autoLifeFade": false,
+                    "curveQuality": "HighQuality",
+                    "curveSubdivision": 12,
+                    "historyCount": 72,
+                    "maxTrailLength": 6.0,
+                    "sampleSpacing": 0.019999999552965164,
+                    "segmentLifetime": 0.25,
+                    "sideFade": 0.10000000149011612,
+                    "smoothTangent": true,
+                    "tailFadeLength": 0.0,
+                    "uvTiling": 1.0,
+                    "width": 1.649999976158142
+                },
+                "kind": "Trail"
+            }
+        },
+        {
+            "enabled": true,
+            "id": 157,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.0,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 5.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 0,
+                        "material": {
+                            "additive": {
+                                "amountSource": "Alpha",
+                                "blackNeutral": true,
+                                "colorSource": "TintedRGB",
+                                "constantColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coveragePolicy": "AmountOnly",
+                                "emissiveColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "intensityScale": 1.0
+                            },
+                            "airSheathMapComposition": "Replace",
+                            "airSheathMapInfluence": 0.0,
+                            "airSheathMapInterpretation": "VectorField",
+                            "airSheathMapVectorSpace": "Screen",
+                            "airSheathMapXSource": "Red",
+                            "airSheathMapYSource": "Green",
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.0,
+                            "alphaMultiplier": 1.0,
+                            "blendMode": "AlphaBlend",
+                            "coreEmissive": {
+                                "coreColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coreIntensity": 0.20999999344348907,
+                                "corePower": 7.5,
+                                "enabled": false,
+                                "outerIntensity": 3.0,
+                                "outerPower": 2.0
+                            },
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "glassAlpha": 0.18000000715255737,
+                            "glassAlphaPower": 1.0,
+                            "glassLightColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassLightDirection": [
+                                -0.3499999940395355,
+                                0.6499999761581421,
+                                -0.6499999761581421
+                            ],
+                            "glassLightIntensity": 1.2000000476837158,
+                            "glassMainInfluence": 0.25,
+                            "glassMaskStrength": 1.0,
+                            "glassNoiseBreakup": 0.3499999940395355,
+                            "glassNormalStrength": 1.0,
+                            "glassRimColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassRimIntensity": 1.5,
+                            "glassRimPower": 3.0,
+                            "glassSpecularPower": 48.0,
+                            "glassSpecularSoftness": 1.0,
+                            "intensity": 5.0,
+                            "mainTextureGuid": "835d2fe7-bfce-4717-830b-520ce92991ac",
+                            "mainTexturePath": "Effects/Textures/Trail/desc_suitS4_glow_01.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                2.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": false,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.0,
+                            "noiseTextureGuid": "",
+                            "noiseTexturePath": "",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Stretch",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 4,
+                            "subUVRows": 4,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.800000011920929
+                            ],
+                            "twoSided": true
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 158,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 16,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": true,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 159,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 0.800000011920929
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 160,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": [
+                                    0.06499999761581421,
+                                    0.06499999761581421
+                                ],
+                                "minValue": [
+                                    0.05000000074505806,
+                                    0.05000000074505806
+                                ],
+                                "randomSeed": {
+                                    "manualSeed": 4122470071,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 161,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "inWorldSpace": false,
+                        "velocity": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": [
+                                    0.10000000149011612,
+                                    0.10000000149011612,
+                                    0.10000000149011612
+                                ],
+                                "minValue": [
+                                    -0.10000000149011612,
+                                    0.10000000149011612,
+                                    -0.10000000149011612
+                                ],
+                                "randomSeed": {
+                                    "manualSeed": 4122470071,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": false,
+                    "id": 162,
+                    "type": "InitialVelocity"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.550000011920929,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 163,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "rotationDegrees": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": 30.0,
+                                "minValue": -30.0,
+                                "randomSeed": {
+                                    "manualSeed": 2264641627,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": false,
+                    "id": 164,
+                    "type": "InitialRotation"
+                },
+                {
+                    "data": {
+                        "acceleration": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "inWorldSpace": true,
+                        "timeBasis": "ParticleLife"
+                    },
+                    "enabled": false,
+                    "id": 165,
+                    "type": "Acceleration"
+                },
+                {
+                    "data": {
+                        "endFrame": 7,
+                        "frameIndex": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "framesPerSecond": 12.0,
+                        "loop": false,
+                        "perStripSubUVVariation": false,
+                        "playbackMode": "RandomFrame",
+                        "randomSeed": {
+                            "manualSeed": 4220116393,
+                            "mode": "Manual",
+                            "useInstanceSeed": false
+                        },
+                        "randomStartPhase": false,
+                        "startFrame": 0
+                    },
+                    "enabled": true,
+                    "id": 166,
+                    "type": "SubUVFrameOverLife"
+                },
+                {
+                    "data": {
+                        "directionMode": "SourceVelocityDirection",
+                        "sourceSpeedScale": 0.019999999552965164,
+                        "speed": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "spreadAngleDegrees": 15.0
+                    },
+                    "enabled": true,
+                    "id": 167,
+                    "type": "SourceMotionVelocity"
+                },
+                {
+                    "data": {
+                        "tiltDegrees": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": [
+                                    30.0,
+                                    30.0
+                                ],
+                                "minValue": [
+                                    -30.0,
+                                    -30.0
+                                ],
+                                "randomSeed": {
+                                    "manualSeed": 571984301,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": false,
+                    "id": 168,
+                    "type": "SpriteTilt"
+                },
+                {
+                    "data": {
+                        "applyChannels": [
+                            "InitialVelocity",
+                            "InitialRadialVelocity",
+                            "VelocityCone",
+                            "SourceMotionVelocity"
+                        ],
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.4000000059604645,
+                                        "value": 0.10000000149011612
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 169,
+                    "type": "VelocityOverLife"
+                }
+            ],
+            "name": "Sprite Trail Particle",
+            "renderLayerOverride": "Auto",
+            "rendererType": "SourceHistorySpriteTrail",
+            "typeData": {
+                "data": {
+                    "cardLength": 1.0,
+                    "cardWidth": 1.0,
+                    "curveQuality": "Custom",
+                    "curveSubdivision": 24,
+                    "flipU": false,
+                    "flipV": false,
+                    "followerLaneCount": 1,
+                    "maxLength": 0.0,
+                    "maxStampCount": 256,
+                    "rotationOffsetDegrees": 0.0,
+                    "sampleLifetime": 0.3499999940395355,
+                    "sampleSpacing": 0.009999999776482582,
+                    "smoothTangent": true,
+                    "sourceEmitterId": 0,
+                    "sourceMode": "SelfRoot",
+                    "spawnJitter": 0.30000001192092896,
+                    "stampInterval": 0.009999999776482582,
+                    "stampSpacing": 0.11999999731779099,
+                    "stampSpawnMode": "Distance"
+                },
+                "kind": "SourceHistorySpriteTrail"
+            }
+        },
+        {
+            "enabled": true,
+            "id": 170,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.0,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 0,
+                        "material": {
+                            "airSheathMapComposition": "Replace",
+                            "airSheathMapInfluence": 0.0,
+                            "airSheathMapInterpretation": "VectorField",
+                            "airSheathMapVectorSpace": "Screen",
+                            "airSheathMapXSource": "Red",
+                            "airSheathMapYSource": "Green",
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.0,
+                            "alphaMultiplier": 1.0,
+                            "blendMode": "AlphaBlend",
+                            "coreEmissive": {
+                                "coreColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coreIntensity": 1.0,
+                                "corePower": 4.0,
+                                "enabled": false,
+                                "outerIntensity": 2.0,
+                                "outerPower": 1.0
+                            },
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "glassAlpha": 0.18000000715255737,
+                            "glassAlphaPower": 1.0,
+                            "glassLightColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassLightDirection": [
+                                -0.3499999940395355,
+                                0.6499999761581421,
+                                -0.6499999761581421
+                            ],
+                            "glassLightIntensity": 1.2000000476837158,
+                            "glassMainInfluence": 0.25,
+                            "glassMaskStrength": 1.0,
+                            "glassNoiseBreakup": 0.3499999940395355,
+                            "glassNormalStrength": 1.0,
+                            "glassRimColor": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "glassRimIntensity": 1.5,
+                            "glassRimPower": 3.0,
+                            "glassSpecularPower": 48.0,
+                            "glassSpecularSoftness": 1.0,
+                            "intensity": 6.0,
+                            "mainTextureGuid": "c4c17512-36b3-4ff6-aef8-c554a2fb2e93",
+                            "mainTexturePath": "Effects/Textures/Particle/HERO_1411_trail_005.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "Rotate90CW",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": false,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.0,
+                            "noiseTextureGuid": "",
+                            "noiseTexturePath": "",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Stretch",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                0.800000011920929,
+                                0.699999988079071,
+                                0.5,
+                                1.0
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 171,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 16,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": true,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 172,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 0.30000001192092896
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 173,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.029999999329447746
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 174,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.6000000238418579,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 175,
+                    "type": "ColorOverLife"
+                }
+            ],
+            "name": "Ribbon",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Ribbon",
+            "typeData": {
+                "data": {
+                    "autoLifeFade": false,
+                    "baseWidth": 0.10000000149011612,
+                    "curveQuality": "Basic",
+                    "curveSubdivision": 4,
+                    "followerLaneCount": 1,
+                    "laneSpawnFadeInDuration": 0.07999999821186066,
+                    "laneSpawnFadeInEnabled": false,
+                    "manualRollDegrees": 0.0,
+                    "maxLength": 0.0,
+                    "maxSampleCount": 64,
+                    "sampleInterval": 0.0,
+                    "sampleSpacing": 0.07999999821186066,
+                    "smoothTangent": false,
+                    "sourceEmitterId": 0,
+                    "sourceMode": "SelfRoot",
+                    "tailCollapseOnIdle": true,
+                    "tailCollapseSpeed": 10.0,
+                    "tailFadeLength": 3.0,
+                    "tilingDistance": 0.0,
+                    "useManualRoll": false
+                },
+                "kind": "Ribbon"
+            }
+        }
+    ],
+    "historyBudget": {
+        "preset": "Medium"
+    },
+    "historySourceGroups": [
+        {
+            "confirmed": true,
+            "curveSubdivision": 12,
+            "kind": "TrailPairHistory",
+            "sampleSpacing": 0.019999999552965164,
+            "smoothTangent": true,
+            "sourceSampleCount": 64,
+            "stableId": "TrailProvider"
+        }
+    ],
+    "name": "",
+    "particleSystem": {
+        "autoDeactivate": true
+    },
+    "version": 2
+}
