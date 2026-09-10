@@ -1,0 +1,9 @@
+# Visual Studio / build artifacts (this snapshot is not buildable, kept for safety)
+.vs/
+Bin/Debug/
+Bin/Release/
+x64/
+*.user
+*.suo
+__pycache__/
+*.pyc

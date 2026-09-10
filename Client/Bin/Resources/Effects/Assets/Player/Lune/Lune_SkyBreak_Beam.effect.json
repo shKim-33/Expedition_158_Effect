@@ -1,0 +1,4255 @@
+{
+    "emitters": [
+        {
+            "enabled": true,
+            "id": 1,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.0,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.0,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 6.0,
+                            "mainTextureGuid": "ccff47b8-e9b9-4350-861d-a7d91961510d",
+                            "mainTexturePath": "Effects/Textures/Temp/rules_blue_ex.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "6529e92a-4d57-4819-8f88-a2d9169466f2",
+                            "maskTexturePath": "Effects/Textures/Noise/SphereRenderHeightMap.dds",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                1.0,
+                                0.949999988079071
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": false,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.0,
+                            "noiseTextureGuid": "",
+                            "noiseTexturePath": "",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Stretch",
+                            "opacityPower": 3.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 2,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 16,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": true,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 3,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 4,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "alpha": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "color": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 9,
+                    "type": "InitialColor"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 10,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "endRatioOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.20000000298023224,
+                                        "value": 1.0
+                                    }
+                                ]
+                            }
+                        },
+                        "startRatioOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.8199999928474426,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.8999999761581421,
+                                        "value": 1.0
+                                    }
+                                ]
+                            }
+                        },
+                        "widthScaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "arriveTangent": 1.4285714626312256,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 1.4285714626312256,
+                                        "time": 0.20000000298023224,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": -1.4285714626312256,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": -1.4285714626312256,
+                                        "time": 0.699999988079071,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.8999999761581421,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 11,
+                    "type": "BeamEnvelopeOverLife"
+                }
+            ],
+            "name": "Beam",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Beam",
+            "typeData": {
+                "data": {
+                    "baseWidth": 2.0,
+                    "branchChance": 1.0,
+                    "branchCount": 0,
+                    "branchCrackLength": 0.5,
+                    "branchCrackSpreadRadius": 0.25,
+                    "branchCurveAmount": 0.5,
+                    "branchDownLength": 1.0,
+                    "branchEnabled": false,
+                    "branchEndSpreadRadius": 0.5,
+                    "branchEntangleAdvance": 0.25,
+                    "branchEntangleRadius": 0.3499999940395355,
+                    "branchLength": 0.75,
+                    "branchLengthVariance": 0.25,
+                    "branchOutwardAmount": 0.25,
+                    "branchPreset": "EndGuided",
+                    "branchSeedOffset": 1009,
+                    "branchSegmentCount": 3,
+                    "branchSpreadRadius": 0.5,
+                    "branchStartMax": 0.8500000238418579,
+                    "branchStartMin": 0.20000000298023224,
+                    "branchWidthScale": 0.44999998807907104,
+                    "endSpreadRadius": 0.0,
+                    "endpointMode": "DirectionLength",
+                    "length": 6.0,
+                    "lengthVariance": 0.0,
+                    "localDirection": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "localEnd": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "localStart": [
+                        0.0,
+                        6.0,
+                        0.0
+                    ],
+                    "noiseAmplitude": 0.0,
+                    "seed": 1,
+                    "segmentCount": 1,
+                    "stripCount": 1,
+                    "tilingDistance": 0.0
+                },
+                "kind": "Beam"
+            }
+        },
+        {
+            "enabled": true,
+            "id": 12,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.0,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "additive": {
+                                "amountSource": "Alpha",
+                                "blackNeutral": true,
+                                "colorSource": "TintedRGB",
+                                "constantColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coveragePolicy": "AmountOnly",
+                                "emissiveColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "intensityScale": 1.0
+                            },
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.0,
+                            "blendMode": "AlphaBlend",
+                            "coreEmissive": {
+                                "coreColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coreIntensity": 0.10000000149011612,
+                                "corePower": 7.5,
+                                "enabled": false,
+                                "outerIntensity": 1.0,
+                                "outerPower": 2.0
+                            },
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 3.5999999046325684,
+                            "mainTextureGuid": "f0e835e2-2441-4af7-9ea6-2814ce081c64",
+                            "mainTexturePath": "Effects/Textures/Symbol/T_BreakBar_FlipBook.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": false,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.0,
+                            "noiseTextureGuid": "",
+                            "noiseTexturePath": "",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Stretch",
+                            "opacityPower": 2.0,
+                            "opacitySource": "Red",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 3,
+                            "subUVRows": 3,
+                            "tint": [
+                                0.4000000059604645,
+                                0.800000011920929,
+                                1.0,
+                                1.0
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "Velocity",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "X",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 13,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 60,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 500,
+                        "processBurstList": false,
+                        "processSpawnRate": true,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 100.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 5.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.2800000011920929,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 14,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 15,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    5.5,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 16,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": [
+                                    0.20000000298023224,
+                                    0.4000000059604645
+                                ],
+                                "minValue": [
+                                    0.15000000596046448,
+                                    0.30000001192092896
+                                ],
+                                "randomSeed": {
+                                    "manualSeed": 1516441650,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 17,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "inWorldSpace": false,
+                        "velocity": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 18,
+                    "type": "InitialVelocity"
+                },
+                {
+                    "data": {
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 27.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.5,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 22,
+                    "type": "VelocityOverLife"
+                },
+                {
+                    "data": {
+                        "endFrame": 8,
+                        "frameIndex": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "framesPerSecond": 12.0,
+                        "loop": false,
+                        "perStripSubUVVariation": false,
+                        "playbackMode": "RandomFrame",
+                        "randomSeed": {
+                            "manualSeed": 1602055439,
+                            "mode": "Manual",
+                            "useInstanceSeed": false
+                        },
+                        "randomStartPhase": false,
+                        "startFrame": 0
+                    },
+                    "enabled": true,
+                    "id": 73,
+                    "type": "SubUVFrameOverLife"
+                },
+                {
+                    "data": {
+                        "angleDegreesDistribution": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": 360.0,
+                                "minValue": 0.0,
+                                "randomSeed": {
+                                    "manualSeed": 1849679090,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        },
+                        "axis": "LocalY",
+                        "heightDistribution": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": -0.10000000149011612,
+                                "minValue": -1.0,
+                                "randomSeed": {
+                                    "manualSeed": 2930321737,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        },
+                        "offset": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "placementMode": "Random",
+                        "radiusDistribution": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 0.4000000059604645
+                            }
+                        },
+                        "spawnMode": "SideSurface"
+                    },
+                    "enabled": true,
+                    "id": 113,
+                    "type": "CylinderLocation"
+                },
+                {
+                    "data": {
+                        "rotationDegrees": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": 160.0,
+                                "minValue": -160.0,
+                                "randomSeed": {
+                                    "manualSeed": 2489410563,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 114,
+                    "type": "InitialRotation"
+                },
+                {
+                    "data": {
+                        "tiltDegrees": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": [
+                                    30.0,
+                                    80.0
+                                ],
+                                "minValue": [
+                                    -30.0,
+                                    -60.0
+                                ],
+                                "randomSeed": {
+                                    "manualSeed": 2839705665,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 125,
+                    "type": "SpriteTilt"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.6000000238418579,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.699999988079071,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 126,
+                    "type": "ColorOverLife"
+                }
+            ],
+            "name": "Beam Particles",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 176,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.23000000417232513,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 3.0,
+                            "mainTextureGuid": "8a87031e-bbb3-438b-af34-ee791cff4699",
+                            "mainTexturePath": "Effects/Textures/Ring/39247_glow_02.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.30000001192092896,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 2.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.5
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": -2,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 177,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 1,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 178,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 179,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 180,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.6000000238418579,
+                                    0.6000000238418579
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 181,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 182,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            5.0,
+                                            5.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            5.0,
+                                            5.0
+                                        ],
+                                        "time": 0.10000000149011612,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            -4.878048896789551,
+                                            -4.878048896789551
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            -4.878048896789551,
+                                            -4.878048896789551
+                                        ],
+                                        "time": 0.800000011920929,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.9200000166893005,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 183,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Explosion",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 184,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.12999999523162842,
+                            "alphaErosion": 0.28999999165534973,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 4.0,
+                            "mainTextureGuid": "02a00c92-3fc8-4d96-885b-0be8c6d0fe65",
+                            "mainTexturePath": "Effects/Textures/Ring/39247_ray_02.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.5,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.5
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": -1,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 185,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 1,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 186,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 187,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 188,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.6000000238418579,
+                                    0.6000000238418579
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 189,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 190,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            4.7058820724487305,
+                                            4.7058820724487305
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            4.7058820724487305,
+                                            4.7058820724487305
+                                        ],
+                                        "time": 0.10000000149011612,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            -4.597701072692871,
+                                            -4.597701072692871
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            -4.597701072692871,
+                                            -4.597701072692871
+                                        ],
+                                        "time": 0.8500000238418579,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.9700000286102295,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 191,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Explosion Line",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 192,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.12999999523162842,
+                            "alphaErosion": 0.28999999165534973,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 4.0,
+                            "mainTextureGuid": "02a00c92-3fc8-4d96-885b-0be8c6d0fe65",
+                            "mainTexturePath": "Effects/Textures/Ring/39247_ray_02.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.5,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.5
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": -1,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 193,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 1,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 194,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 195,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 196,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.699999988079071,
+                                    0.699999988079071
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 197,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 198,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            5.0,
+                                            5.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            5.0,
+                                            5.0
+                                        ],
+                                        "time": 0.10000000149011612,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            -4.878048896789551,
+                                            -4.878048896789551
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            -4.878048896789551,
+                                            -4.878048896789551
+                                        ],
+                                        "time": 0.800000011920929,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.9200000166893005,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 199,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Explosion Line 2",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 115,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.23000000417232513,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 0.5,
+                            "mainTextureGuid": "8a87031e-bbb3-438b-af34-ee791cff4699",
+                            "mainTexturePath": "Effects/Textures/Ring/39247_glow_02.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.30000001192092896,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 2.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.5
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": -3,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 116,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 1,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 117,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 118,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 119,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.100000023841858,
+                                    1.100000023841858
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 120,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 124,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            5.333333492279053,
+                                            5.333333492279053
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            5.333333492279053,
+                                            5.333333492279053
+                                        ],
+                                        "time": 0.10000000149011612,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            -5.194805145263672,
+                                            -5.194805145263672
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            -5.194805145263672,
+                                            -5.194805145263672
+                                        ],
+                                        "time": 0.75,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.8700000047683716,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 127,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Explosion 2",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 168,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.23000000417232513,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 4.0,
+                            "mainTextureGuid": "7bf830ce-1939-4ba5-b279-0ec3c8ab711c",
+                            "mainTexturePath": "Effects/Textures/Ring/T_Effect_Ring.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.6000000238418579,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 2.0,
+                            "opacitySource": "Red",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                0.5,
+                                0.5,
+                                0.5,
+                                0.5
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": -2,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 169,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 1,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 170,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 171,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 172,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.2000000476837158,
+                                    1.2000000476837158
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 173,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 174,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            5.333333492279053,
+                                            5.333333492279053
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            5.333333492279053,
+                                            5.333333492279053
+                                        ],
+                                        "time": 0.10000000149011612,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            -5.194805145263672,
+                                            -5.194805145263672
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            -5.194805145263672,
+                                            -5.194805145263672
+                                        ],
+                                        "time": 0.75,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.8700000047683716,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 175,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Explosion Noise",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 144,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.2800000011920929,
+                            "alphaErosion": 0.5,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 4.0,
+                            "mainTextureGuid": "92721b2b-6936-4d99-992f-cafda3cd45f8",
+                            "mainTexturePath": "Effects/Textures/Ring/ring.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": false,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.5,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.5
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": -1,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 145,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 1,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 146,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 147,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 148,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.8500000238418579,
+                                    0.8500000238418579
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 149,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 150,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            5.714285850524902,
+                                            5.714285850524902
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            5.714285850524902,
+                                            5.714285850524902
+                                        ],
+                                        "time": 0.10000000149011612,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            -5.555555820465088,
+                                            -5.555555820465088
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            -5.555555820465088,
+                                            -5.555555820465088
+                                        ],
+                                        "time": 0.699999988079071,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.8199999928474426,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 151,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Explosion Line 3",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 152,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.12999999523162842,
+                            "alphaErosion": 0.28999999165534973,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 4.0,
+                            "mainTextureGuid": "02a00c92-3fc8-4d96-885b-0be8c6d0fe65",
+                            "mainTexturePath": "Effects/Textures/Ring/39247_ray_02.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.5,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.5
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": -1,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 153,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 1,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 154,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 155,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 156,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.8999999761581421,
+                                    0.8999999761581421
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 157,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 158,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            6.153846263885498,
+                                            6.153846263885498
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            6.153846263885498,
+                                            6.153846263885498
+                                        ],
+                                        "time": 0.10000000149011612,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            -5.970149517059326,
+                                            -5.970149517059326
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            -5.970149517059326,
+                                            -5.970149517059326
+                                        ],
+                                        "time": 0.6499999761581421,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.7699999809265137,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 159,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Explosion Line 4",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 160,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "alphaCutoff": 0.12999999523162842,
+                            "alphaErosion": 0.28999999165534973,
+                            "blendMode": "AlphaBlend",
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 4.0,
+                            "mainTextureGuid": "02a00c92-3fc8-4d96-885b-0be8c6d0fe65",
+                            "mainTexturePath": "Effects/Textures/Ring/39247_ray_02.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                2.0,
+                                2.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": true,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.5,
+                            "noiseTextureGuid": "dda8728c-fe2c-4fd1-b2ac-1bd290e71cee",
+                            "noiseTexturePath": "Effects/Textures/Shared/Mask_Paint_512.dds",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Wrap",
+                                "vPolicy": "Wrap"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Wrap",
+                            "opacityPower": 1.0,
+                            "opacitySource": "Alpha",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 1,
+                            "subUVRows": 1,
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.5
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "FacingCameraPosition",
+                        "sortBias": 0.0,
+                        "sortLayer": -1,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "Y",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 161,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 1,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 64,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 162,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 163,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 164,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.949999988079071,
+                                    0.949999988079071
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 165,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 166,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "axisLock": "None",
+                        "multiplyX": true,
+                        "multiplyY": true,
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            6.666666507720947,
+                                            6.666666507720947
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            6.666666507720947,
+                                            6.666666507720947
+                                        ],
+                                        "time": 0.10000000149011612,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            -6.451612949371338,
+                                            -6.451612949371338
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            -6.451612949371338,
+                                            -6.451612949371338
+                                        ],
+                                        "time": 0.6000000238418579,
+                                        "value": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.7200000286102295,
+                                        "value": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 167,
+                    "type": "SizeByLife"
+                }
+            ],
+            "name": "Explosion Line 5",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        },
+        {
+            "enabled": true,
+            "id": 226,
+            "modules": [
+                {
+                    "data": {
+                        "cameraMotionBlurAmount": 0.0,
+                        "clearExistingParticlesOnInit": false,
+                        "delay": 0.20000000298023224,
+                        "delayFirstLoopOnly": false,
+                        "delayLow": 0.0,
+                        "directionalAlignmentMode": "TextureAxis",
+                        "duration": 1.0,
+                        "durationLow": 0.0,
+                        "emitterOrigin": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "emitterRotationDegrees": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "killOnCompleted": false,
+                        "killOnDeactivate": false,
+                        "loopCount": 1,
+                        "material": {
+                            "additive": {
+                                "amountSource": "Alpha",
+                                "blackNeutral": true,
+                                "colorSource": "TintedRGB",
+                                "constantColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coveragePolicy": "AmountOnly",
+                                "emissiveColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "intensityScale": 1.0
+                            },
+                            "alphaCutoff": 0.0,
+                            "alphaErosion": 0.0,
+                            "blendMode": "AlphaBlend",
+                            "coreEmissive": {
+                                "coreColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "coreIntensity": 0.10000000149011612,
+                                "corePower": 7.5,
+                                "enabled": false,
+                                "outerIntensity": 1.0,
+                                "outerPower": 2.0
+                            },
+                            "distortionShapeMode": "None",
+                            "distortionShapeRadius": 0.44999998807907104,
+                            "distortionShapeSoftness": 0.15000000596046448,
+                            "distortionShapeThickness": 0.10000000149011612,
+                            "flowTextureGuid": "",
+                            "flowTexturePath": "",
+                            "flowUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "flowUVRotation": "None",
+                            "flowUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "flowUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "flowUVTilingMode": "Stretch",
+                            "intensity": 3.5999999046325684,
+                            "mainTextureGuid": "f0e835e2-2441-4af7-9ea6-2814ce081c64",
+                            "mainTexturePath": "Effects/Textures/Symbol/T_BreakBar_FlipBook.dds",
+                            "mainUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "mainUVRotation": "None",
+                            "mainUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "mainUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "mainUVTilingMode": "Stretch",
+                            "maskInvert": false,
+                            "maskSource": "Alpha",
+                            "maskTextureGuid": "",
+                            "maskTexturePath": "",
+                            "maskUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "maskUVRotation": "None",
+                            "maskUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "maskUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "maskUVTilingMode": "Stretch",
+                            "materialFamily": "Default",
+                            "noiseInvert": false,
+                            "noiseSource": "Red",
+                            "noiseStrength": 0.0,
+                            "noiseTextureGuid": "",
+                            "noiseTexturePath": "",
+                            "noiseUVOffset": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVPolicy": {
+                                "uPolicy": "Stretch",
+                                "vPolicy": "Stretch"
+                            },
+                            "noiseUVRotation": "None",
+                            "noiseUVScale": [
+                                1.0,
+                                1.0
+                            ],
+                            "noiseUVScrollSpeed": [
+                                0.0,
+                                0.0
+                            ],
+                            "noiseUVTilingMode": "Stretch",
+                            "opacityPower": 2.0,
+                            "opacitySource": "Red",
+                            "refractionIntensity": 0.0,
+                            "refractionPresence": 1.0,
+                            "sourcePresetName": "M_DefaultMaterial",
+                            "subUVCols": 3,
+                            "subUVRows": 3,
+                            "tint": [
+                                0.4000000059604645,
+                                0.800000011920929,
+                                1.0,
+                                1.0
+                            ],
+                            "twoSided": false
+                        },
+                        "maxCameraBlendDistance": 0.0,
+                        "maxDrawCount": 500,
+                        "minCameraBlendDistance": 0.0,
+                        "recalculateDurationEachLoop": false,
+                        "rendererType": "Sprite",
+                        "screenAlignment": "Velocity",
+                        "sortBias": 0.0,
+                        "sortLayer": 0,
+                        "sortPolicy": "None",
+                        "spriteRollOffsetDegrees": 0.0,
+                        "spriteTextureAxis": "X",
+                        "useDelayRange": false,
+                        "useDurationRange": false,
+                        "useLocalSpace": true,
+                        "useMaxDrawCount": true
+                    },
+                    "enabled": true,
+                    "id": 227,
+                    "type": "Required"
+                },
+                {
+                    "data": {
+                        "burstList": [
+                            {
+                                "count": 120,
+                                "time": 0.0
+                            }
+                        ],
+                        "burstScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        },
+                        "maxParticleCount": 500,
+                        "processBurstList": true,
+                        "processSpawnRate": false,
+                        "spawnRate": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 10.0
+                            }
+                        },
+                        "spawnRateScale": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 228,
+                    "type": "Spawn"
+                },
+                {
+                    "data": {
+                        "lifeTime": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 229,
+                    "type": "Lifetime"
+                },
+                {
+                    "data": {
+                        "location": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 230,
+                    "type": "InitialLocation"
+                },
+                {
+                    "data": {
+                        "size": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": [
+                                    0.20000000298023224,
+                                    0.4000000059604645
+                                ],
+                                "minValue": [
+                                    0.15000000596046448,
+                                    0.30000001192092896
+                                ],
+                                "randomSeed": {
+                                    "manualSeed": 1516441650,
+                                    "mode": "Manual",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 231,
+                    "type": "InitialSize"
+                },
+                {
+                    "data": {
+                        "centerDirectionMode": "RandomUpward",
+                        "inWorldSpace": false,
+                        "radialPivot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "speed": {
+                            "mode": "Uniform",
+                            "payload": {
+                                "maxValue": 0.8999999761581421,
+                                "minValue": 0.6000000238418579,
+                                "randomSeed": {
+                                    "manualSeed": 0,
+                                    "mode": "Default",
+                                    "useInstanceSeed": false
+                                }
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 232,
+                    "type": "InitialRadialVelocity"
+                },
+                {
+                    "data": {
+                        "offset": [
+                            0.0,
+                            0.03999999910593033,
+                            0.0
+                        ],
+                        "placementMode": "Random",
+                        "radius": 0.10000000149011612,
+                        "randomSeed": {
+                            "manualSeed": 788554743,
+                            "mode": "Manual",
+                            "useInstanceSeed": false
+                        },
+                        "spawnMode": "Surface"
+                    },
+                    "enabled": true,
+                    "id": 233,
+                    "type": "SphereLocation"
+                },
+                {
+                    "data": {
+                        "scaleOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 14.0
+                                    },
+                                    {
+                                        "arriveTangent": -27.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": -27.0,
+                                        "time": 0.44999998807907104,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "CurveAutoClamped",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": -13.0
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 234,
+                    "type": "VelocityOverLife"
+                },
+                {
+                    "data": {
+                        "alphaOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.800000011920929,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.8999999761581421,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "colorOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        }
+                    },
+                    "enabled": true,
+                    "id": 235,
+                    "type": "ColorOverLife"
+                },
+                {
+                    "data": {
+                        "angleDegreesOverLife": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": 240.0
+                                    }
+                                ]
+                            }
+                        },
+                        "orientationMode": "Preserve",
+                        "pivotMode": "EmitterOrigin",
+                        "plane": "XY",
+                        "radiusScaleOverLife": {
+                            "mode": "Constant",
+                            "payload": {
+                                "value": 1.0
+                            }
+                        }
+                    },
+                    "enabled": false,
+                    "id": 236,
+                    "type": "OrbitOverLife"
+                },
+                {
+                    "data": {
+                        "endFrame": 8,
+                        "frameIndex": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 0.0,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "arriveTangent": 0.0,
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": 0.0,
+                                        "time": 1.0,
+                                        "value": 0.0
+                                    }
+                                ]
+                            }
+                        },
+                        "framesPerSecond": 12.0,
+                        "loop": false,
+                        "perStripSubUVVariation": false,
+                        "playbackMode": "RandomFrame",
+                        "randomSeed": {
+                            "manualSeed": 1602055439,
+                            "mode": "Manual",
+                            "useInstanceSeed": false
+                        },
+                        "randomStartPhase": false,
+                        "startFrame": 0
+                    },
+                    "enabled": true,
+                    "id": 237,
+                    "type": "SubUVFrameOverLife"
+                },
+                {
+                    "data": {
+                        "acceleration": {
+                            "mode": "ConstantCurve",
+                            "payload": {
+                                "keys": [
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Constant",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.0,
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.44999998807907104,
+                                        "value": [
+                                            0.0,
+                                            -5.0,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "arriveTangent": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "interpolationMode": "Linear",
+                                        "leaveTangent": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "time": 0.550000011920929,
+                                        "value": [
+                                            0.0,
+                                            1.0,
+                                            0.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "inWorldSpace": true,
+                        "timeBasis": "EmitterNormalizedTime"
+                    },
+                    "enabled": false,
+                    "id": 238,
+                    "type": "Acceleration"
+                }
+            ],
+            "name": "Burst Particle",
+            "renderLayerOverride": "Auto",
+            "rendererType": "Sprite"
+        }
+    ],
+    "name": "",
+    "particleSystem": {
+        "autoDeactivate": true
+    },
+    "version": 2
+}
